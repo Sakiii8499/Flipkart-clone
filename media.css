@@ -51,6 +51,9 @@
     nav{
         display: none;
     }
+    .hamburger-menu{
+        display: none;
+    }
 }
 @media(min-width:1101px){
     .nav2{
