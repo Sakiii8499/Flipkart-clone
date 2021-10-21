@@ -17,6 +17,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 10px;
+        text-align: center;
     }
     .footer-row-2{
         display: flex;
