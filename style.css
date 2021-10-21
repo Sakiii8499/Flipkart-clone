@@ -61,7 +61,7 @@ input{
     padding-left: 10px;
 }
 .fa-sort-down{
-    padding-left: 5px;
+    padding-left: 50px;
 }
 .login{
     color: #2874f0;
@@ -129,8 +129,6 @@ section{
        93.33%{
            left: -2732px;
        }
-   
-   
        100%{
            left: -4098px;
        }
@@ -144,7 +142,7 @@ section{
    /* <!-- Mobile section --> */
    
    .card{
-       box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
+       box-shadow: rgb(177,174,174) 0px 3px 1px;
        padding: 10px 0px;
        margin: 10px 5px;
        border-radius: 5px;
@@ -160,7 +158,7 @@ section{
     .common-heading-left h1{
         font-size: 20px;
         font-weight: 400;
-        padding:auto;
+        padding: auto;
     }
     .common-heading-left h2{
         font-size: 15px;
@@ -181,7 +179,6 @@ section{
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        max-height: 366px;
         margin: 10px 0px;
     }
     .common-col{
