@@ -9,11 +9,58 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="shortcut icon" href="Flipkart-favicon.png" type="image/x-icon">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
 </head>
 
 <body>
+    
+    <!-- Hamburger menu -->
+    <div class="hamburger-menu">
+        <div class="sign-up">
+            <div>
+                <i class="fas fa-user"></i>
+                <span>Login & Signup</span>
+            </div>
+            <div>
+                <img src="Flipkart-favicon.png" alt="">
+            </div>
+        </div>
+        <div class="menu">
+            <div class="list">
+                <div><i class="fas fa-bolt"></i><a href="sub-items">SuperCoin zone</a></div>
+                <div><i class="fas fa-plus-circle"></i><a href="sub-items">Flipkart Plus zone</a></div>
+            </div>
+            <div class="list">
+                <div><i class="fas fa-window-restore"></i><a href="sub-items">All Categories</a></div>
+                <div><i class="fas fa-money-check"></i><a href="sub-items">More on Flipkart</a></div>
+            </div>
+            <div class="list">
+                <div><i class="fas fa-globe-americas"></i><a href="sub-items">Choose Language</a></div>
+            </div>
+            <div class="list">
+                <div><i class="fas fa-money-check-alt"></i><a href="sub-items">Offer zone</a></div>
+                <div><i class="fas fa-briefcase"></i><a href="sub-items">Sell on Flipkart</a></div>
+            </div>
+            <div class="list">
+                <div><i class="fas fa-th-list"></i><a href="sub-items">My Orders</a></div>
+                <div><i class="fas fa-money-bill-alt"></i><a href="sub-items">My Rewards</a></div>
+                <div><i class="fas fa-shopping-cart"></i><a href="sub-items">My Cart</a></div>
+                <div><i class="fas fa-heart"></i><a href="sub-items">My Wishlist</a></div>
+                <div><i class="fas fa-user"></i><a href="sub-items">My Account</a></div>
+                <div><i class="fas fa-shopping-cart"></i><a href="sub-items">My Notifications</a></div>
+                <div><i class="fas fa-comment-alt"></i><a href="sub-items">My Chats</a></div>
+            </div>
+            <div class="listss">
+                <div><a href="sub-items">Notification preference</a></div>
+                <div><a href="sub-items">Help Centre</a></div>
+                <div><a href="sub-items">Legal</a></div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- navigation bar -->
     <nav>
         <div class="header-left">
@@ -33,13 +80,12 @@
     </nav>
 
 
-
     <!-- navigation bar 2-->
     <nav class="nav2">
         <div class="part1">
             <div class="ham">
                 <div class="hamburger">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" onclick="myFunction()"></i>
                 </div>
                 <div class="header-left">
                     <a href="#" class="flipkart">Flipkart</a>
@@ -61,10 +107,12 @@
             </div>
         </div>
         <div>
-            <input class="search-bar" type="text" placeholder=" Search for products, brands and more">
+            <input class="search-bar" type="text" placeholder=" Search for products, brands and more ">
         </div>
     </nav>
 
+
+    
     <!-- category-section -->
     <section>
         <div class="category-row">

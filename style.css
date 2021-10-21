@@ -90,9 +90,11 @@ input{
 }
 .ham{
     align-items: center;
+    cursor: pointer;
 }
 .hamburger{
     padding-right: 10px;
+    font-size: 20px;
 }
 .part1{
     justify-content: space-between;
@@ -116,7 +118,63 @@ input{
     padding-top: 8px;
     padding-bottom: 8px;
     outline: none;
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+
+
+/* Hamburger menu */
+.hamburger-menu{
+    display: none;
+    transition: 1s ease;
+    z-index: 2;
+}
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2874f0;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    width: 50%;
+}
+.sign-up img{
+    height: 20px;
+    width: 20px;
+}
+.sign-up .fas{
+    color: #fff;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+}
+.menu .fas{
+    color: grey;
+    padding: 8px;
+    margin-right: 0;
+}
+.list a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+}
+.list{
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.listss a{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 5px;
+}
+.show{
+    display: block;
 }
 
 
