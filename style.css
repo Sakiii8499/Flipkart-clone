@@ -124,10 +124,11 @@ input{
 
 
 /* Hamburger menu */
-.hamburger-menu{
+#hamburger-menu{
     display: none;
-    transition: 1s ease;
+    position: absolute;
     z-index: 2;
+    box-shadow: 1px 0 5px -2px #888; /*spread box shadow using negative value*/
 }
 .sign-up{
     display: flex;
@@ -136,7 +137,7 @@ input{
     color: #fff;
     font-size: 15px;
     padding: 15px;
-    width: 50%;
+    width: 100%;
 }
 .sign-up img{
     height: 20px;
@@ -149,7 +150,8 @@ input{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 50%;
+    width: 100%;
+    background-color: #fff;
 }
 .menu .fas{
     color: grey;
