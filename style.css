@@ -128,7 +128,6 @@ input{
     display: none;
     position: absolute;
     z-index: 2;
-    box-shadow: 1px 0 5px -2px #888; /*spread box shadow using negative value*/
 }
 .sign-up{
     display: flex;
@@ -138,6 +137,7 @@ input{
     font-size: 15px;
     padding: 15px;
     width: 130%;
+    box-shadow: 1px 0 5px -2px #888; /*spread box shadow using negative value*/
 }
 .sign-up img{
     height: 20px;
@@ -153,6 +153,7 @@ input{
     padding: 10px;
     height: 100vh;
     width: 130%;
+    box-shadow: 1px 0 5px 1px #888; /*spread box shadow using negative value*/
     background-color: #fff;
 }
 .menu .fas{
