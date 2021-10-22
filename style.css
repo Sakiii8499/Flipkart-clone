@@ -248,7 +248,7 @@ section{
    }
    
     
-    
+  
    /* common for all */
    
    /* <!-- Mobile section --> */
@@ -326,6 +326,20 @@ section{
     }
    
     
+    /* Diwali images */
+   .diwali-images{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-gap: 10px;
+       padding: 5px;
+       background-color: #f1f3f6
+    }
+    .diwali-images img{
+        height: 100%;
+        width: 100%;
+    }
+
+
     /* <!-- headphones and speaker section --> */
    .col-headphones img{
        width: 125px;
