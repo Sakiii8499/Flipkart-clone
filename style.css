@@ -161,6 +161,10 @@ input{
     padding: 8px;
     margin-right: 0;
 }
+.fas.fa-times{
+    font-size: 15px;
+    cursor: pointer;
+}
 .list a{
     color: black;
     font-weight: bold;
